@@ -26,10 +26,9 @@
       max-width: 380px;
       width: 100%;
       margin: 0 auto;
-      @media only screen and (max-width:855px) {
-          padding: 60px 0px 44px;
-          max-width: 420px;
-        
+      @media only screen and (max-width: 855px) {
+        padding: 60px 0px 44px;
+        max-width: 420px;
       }
       &:nth-child(2) {
         background-image: url(../images/fundo_combo_plus.png);
@@ -50,6 +49,9 @@
 
   p {
     text-align: center;
-    // padding: 0px 20px 0px 20px;
+
+    @media only screen and (max-width: 855px) {
+      padding: 0px 50px;
+    }
   }
 }
