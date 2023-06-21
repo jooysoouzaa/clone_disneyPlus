@@ -7,7 +7,7 @@
   text-align: center;
   background-size: cover;
 
-  @media only screen and (min-width: 768px) and (max-width: 1495px) {
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
     background-image: url(../images/hero_celular.jpeg);
     padding-top: calc(50vw + 25px);
     // background-size: contain;
